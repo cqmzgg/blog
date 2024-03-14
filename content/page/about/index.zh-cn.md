@@ -7,4 +7,5 @@ menu:
             icon: user
 ---
 
-This is a test page for i18n support.
+# 联系我
+- emal:cqmzgg.126.com
