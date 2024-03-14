@@ -7,7 +7,7 @@ math:
 license: 
 hidden: false
 comments: true
-draft: false
+tag: 收藏
 ---
 ## 电视盒子软件
 
