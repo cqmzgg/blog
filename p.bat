@@ -7,7 +7,7 @@ git add .
 git push origin master
 @echo 已经完成,
 
-SET daoTime=60
+SET daoTime=5
 :dao
 set /a daoTime=daoTime-1
 ping -n 2 -w 500 127.1>nul
