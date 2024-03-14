@@ -7,12 +7,11 @@ math:
 license: 
 hidden: false
 comments: true
-category: 
+categories:
     - 网站
-    - html
-tag: 
-    - 收藏	
-    - 主题
+tags:
+    - 收藏
+weight: 1  
 ---
 ## 电视盒子软件
 
