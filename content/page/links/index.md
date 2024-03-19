@@ -1,5 +1,5 @@
 ---
-title: Links
+title: 友链
 links:
   - title: GitHub
     description: GitHub is the world's largest software development platform.
@@ -10,11 +10,10 @@ links:
     website: https://www.typescriptlang.org
     image: ts-logo-128.jpg
 menu:
-    main: 
-        weight: -50
-        params:
-            icon: link
-
+  main:
+    weight: -50
+    params:
+      icon: link
 comments: false
 ---
 
