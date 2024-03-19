@@ -1,20 +1,52 @@
 ---
-title: "2024年3月"
+title: 2024年3月
 description: 
 date: 2024-03-15T11:43:41+08:00
-image: 
+image: https://s2.loli.net/2024/03/19/8ZNXz93qnbHmIAB.png
 math: 
 license: 
 hidden: false
 comments: true
 categories:
-    - 记录
+  - 记录
 tags:
-    - 月记
+  - 月记
 ---
+### 3 月 19 日
+Github trending
+[Github趋势报告 | GitHub 中文社区](https://www.github-zh.com/trending)
+[GitHub - timqian/chinese-independent-blogs: 中文独立博客列表](https://github.com/timqian/chinese-independent-blogs?tab=readme-ov-file)
+
+
+### 3 月 18 日 
+好文推荐
+[现代打工人如何获得幸福？ - 少数派](https://sspai.com/post/86697#!)
+
+Supermium：为 Windows XP、2003、Vista、7、8.x 优化的 Chromium 浏览器
+[Supermium 官网](https://win32subsystem.live/supermium/)
+[Supermium 网盘下载](https://cqmzgg.lanzn.com/iNJIq1rrzl0h)
+
+### 3 月 15 日
+消协 315
+[全国消协“智慧315”平台](https://315.cca.org.cn/#/home)
+
+Kimi AI 智能助手
+[Kimi](https://kimi.moonshot.cn/)
+
+### 3 月 14 日
+爱看机器人
+[ikanbot](https://v.ikanbot.com/)
 
 ### 3 月 12 日
-[git 客服端](https://gitbutler.com/)
+
+ windows文本照片去底色工具
+[Imgtool](https://cqmzgg.lanzn.com/ikS8I1r5v1ne) 
+
+一堆pve脚本
+[pve脚本](https://tteck.github.io/Proxmox/)
+
+[git 客服端](https://gitbutler.com/)暂时没有windows版本
+
 ### 3 月 9 日
 短剧网址
 -  [看剧吧](https://www.kanjuda.com)
@@ -45,3 +77,7 @@ markdown 编辑器[bluenote](https://www.bluemd.me/)
 - https://github.com/szmxx/blog
 - https://github.com/suyan/suyan.github.io
 - https://github.com/Meekdai/Gmeek
+
+
+
+<!-- ##{"timestamp":1709270859}## -->
