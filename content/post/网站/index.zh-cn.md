@@ -1,18 +1,18 @@
 ---
-title: "网站"
+title: 网站
 description: 
 date: 2024-03-14T12:28:19+08:00
-image: 
+image: https://imglf3.lf127.net/img/b59e543f53f3f28b/WkU5dklkY0x2Z09FOFZuRzZ6d0pSRkRqZHo5VGFJbHI.jpg
 math: 
 license: 
 hidden: false
 comments: true
 draft: false
 categories:
-    - 收藏
+  - 收藏
 tags:
-    - 网站
-weight: 1  
+  - 网站
+weight: 1
 ---
 
 

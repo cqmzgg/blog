@@ -1,18 +1,17 @@
 ---
-title: "安卓"
+title: 安卓
 description: 
 date: 2024-03-14T12:27:01+08:00
-image: 
+image: https://imglf3.lf127.net/img/1aba851bfac81511/V3M1ZE5UZ3FERzR1MnNLSC82bGZHRDlYV2R4cUxObUI.jpg
 math: 
 license: 
 hidden: false
 comments: true
 draft: false
 categories:
-    - 收藏
+  - 收藏
 tags:
-    - 安卓
-
+  - 安卓
 ---
 
 
