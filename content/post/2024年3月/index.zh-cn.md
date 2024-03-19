@@ -2,7 +2,7 @@
 title: 2024年3月
 description: 
 date: 2024-03-15T11:43:41+08:00
-image: https://s2.loli.net/2024/03/19/8ZNXz93qnbHmIAB.png
+image: https://imageproxy.pimg.tw/resize?url=https://s2.loli.net/2024/03/19/8ZNXz93qnbHmIAB.png
 math: 
 license: 
 hidden: false
