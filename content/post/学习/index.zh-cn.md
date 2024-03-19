@@ -1,19 +1,18 @@
 ---
-title: "说话就是生产力"
+title: 说话就是生产力
 description: 
 date: 2024-03-14T12:27:01+08:00
-image: 
+image: https://imageproxy.pimg.tw/resize?url=https://s2.loli.net/2024/03/19/hC65fprWnTOFUKm.jpg
 math: 
 license: 
 hidden: false
 comments: true
 draft: false
-weight: 1  
+weight: 1
 categories:
-    - 记录
+  - 记录
 tags:
-    - 读书笔记
-
+  - 读书笔记
 ---
 
 ## 说话就是生产力
