@@ -2,7 +2,7 @@
 title: "0319"
 description: 
 date: 2024-03-15T11:43:41+08:00
-image: https://imglf3.lf127.net/img/ea6b88e63cdb56b1/WldqZENmL1Z3RmU0U3RPbDBzcEhBbG05Z0xjc3pIb1M.jpg
+image: https://imageproxy.pimg.tw/resize?url=https://s2.loli.net/2024/03/19/Nvyac3MF4Gd69fb.jpg
 math: 
 license: 
 hidden: false

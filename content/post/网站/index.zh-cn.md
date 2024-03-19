@@ -2,7 +2,7 @@
 title: 网站
 description: 
 date: 2024-03-14T12:28:19+08:00
-image: https://imglf3.lf127.net/img/b59e543f53f3f28b/WkU5dklkY0x2Z09FOFZuRzZ6d0pSRkRqZHo5VGFJbHI.jpg
+image: https://pic1.xuehuaimg.com/proxy/https://s2.loli.net/2024/03/19/EhU3WZH1MRzOY79.jpg
 math: 
 license: 
 hidden: false

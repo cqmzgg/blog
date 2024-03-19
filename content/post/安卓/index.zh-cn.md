@@ -2,7 +2,7 @@
 title: 安卓
 description: 
 date: 2024-03-14T12:27:01+08:00
-image: https://imglf3.lf127.net/img/1aba851bfac81511/V3M1ZE5UZ3FERzR1MnNLSC82bGZHRDlYV2R4cUxObUI.jpg
+image: https://pic1.xuehuaimg.com/proxy/https://imageproxy.pimg.tw/resize?url=https://s2.loli.net/2024/03/19/nMa561TZ3HlsBik.jpg
 math: 
 license: 
 hidden: false
