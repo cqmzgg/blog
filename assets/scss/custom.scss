@@ -1,27 +1,323 @@
-/* Place your custom SCSS in HUGO_SITE_FOLDER/assets/scss/custom.scss */
+/*---------------全局设置-------------*/
 :root {
-    // 行内代码背景色
-    --code-background-color: #f8f8f8;
+  --card-border-radius: 20px; //小卡片圆角
+  --article-font-size: 1.7rem; // 全局字体大小
+  --card-background: #ffffff;//小卡片背景颜色
+  --body-text-color: rgba(171, 169, 169, 0.58);//字体颜色
+  //* 行内代码颜色 */
+  // 行内代码背景色
+  --code-background-color: #f8f8f8;
     // 行内代码前景色
-    --code-text-color: #e96900;
+  --code-text-color: #e96900;
 }
 
-// 设置选中字体的区域背景颜色
+
+
+
+/*选中文字颜色*/
 ::selection {
-    background: #dae3ea;
-    color: #34495e;
-  }
-  
-  ::-moz-selection {
-    background: #dae3ea;
-    color: #34495e;
-  }
-  
-  ::-webkit-selection {
-    background: #dae3ea;
-    color: #34495e;
-  }
-:root {
-    // 字体颜色
-    --card-text-color-main: #34495e;
+  color: #fff;
+  background: #557697;
 }
+
+
+/*滚动条样式*/
+html {
+  ::-webkit-scrollbar {
+    width: 18px;
+    //display: none; //隐藏滚动条
+  }
+
+  ::-webkit-scrollbar-track {
+    //background-color: #fff; //滚动条背景颜色
+  }
+
+  ::-webkit-scrollbar-thumb {
+    //鼠标移动上去前的滚动条颜色
+    background-color: rgba(111, 114, 115, 0.65); 
+    border-radius: 20px;
+    border: 6px solid transparent;
+    background-clip: content-box;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    //鼠标移动上去时的滚动条颜色
+    background-color: #232525; 
+  }
+}
+
+/*主页布局间距调整*/
+.main-container {
+  gap: 50px; //文章宽度
+
+  @include respond(md) {
+    padding: 0 30px;
+    gap: 40px; //中等屏幕时的文章宽度
+  }
+}
+
+.related-contents {
+  overflow-x: visible; //显示隐藏的图标
+  padding-bottom: 15px;
+}
+
+
+/*主页文章图片样式*/
+$image-scale: 1.2;
+.article-list article .article-image img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  //不同显示器（手机，小屏幕电脑，大屏幕电脑）显示的图片高度大小
+  @include respond(sm) {
+    height: 305px;
+  }
+
+  @include respond(md) {
+    height: 305px;
+  }
+  @include respond(xl) {
+    height: 325px;
+  }
+}
+
+/*主页文章图片圆角*/
+.article-list article {
+  --card-border-radius: 24px;
+}
+
+/*文章标签圆角*/
+.article-category a, .article-tags a {
+  border-radius: 11px;
+}
+
+
+/*鼠标移动到文章图片放大*/
+.article-list article .article-image {
+  position: relative;
+  overflow: hidden; //不显示超出的部分
+}
+
+.article-list article .article-image img:hover {
+  transform: scale($image-scale); //放大尺寸
+}
+
+.article-list article .article-image img {
+  transition: transform 0.85s ease-in-out;//持续时间
+}
+
+
+/*文章内部-页脚-相关文章图片圆角*/
+.article-list--compact article .article-image img {
+  border-radius: 17%;
+}
+
+
+/*文章内部-页脚-相关文章图片放大动画*/
+.article-list--compact article > a {
+  transition: .6s ease;
+}
+
+.article-list--compact article > a:hover {
+  transform: scale(1.03, 1.03);
+  overflow: visible;
+}
+
+/*--------------------左侧导航栏---------------*/
+.left-sidebar {
+  --sidebar-avatar-size: 115px; //左侧头像大小
+  --sidebar-element-separation: 15px; //头像下方间距
+  --emoji-size: 40px; //emoji容器大小
+  --emoji-font-size: 25px; //emoji字体大小
+}
+
+
+
+/*头像旋转动画*/
+.sidebar header .site-avatar .site-logo {
+  transition: transform 1.65s ease-in-out; //旋转时间
+
+}
+
+.sidebar header .site-avatar .site-logo:hover {
+  transform: rotate(360deg); //旋转角度为360度
+}
+
+
+/*社交菜单居中*/
+.social-menu svg {
+  gap: 15px;
+  justify-content: center;
+  width: 30px;
+  height: 30px; //社交菜单大小
+  stroke: var(--body-text-color);
+  stroke-width: 1.33;
+}
+
+
+/*暗色模式按钮距离上边按钮边距调整*/
+.menu .menu-bottom-section {
+  margin-top: 70px;
+}
+
+#dark-mode-toggle {
+  gap: 30px; //暗色模式横向长度
+}
+
+
+/*下拉菜单美化*/
+.menu {
+  list-style: none;
+  flex-direction: column;
+  overflow-x: hidden;
+  overflow-y: scroll; //搭配菜单滚动条美化使用
+  flex-grow: 1;
+  font-size: 1.7rem;
+  //background-color: rgb(252, 252, 252);
+
+  box-shadow: var(--shadow-l2); //改个阴影
+  display: none;
+  margin: 0; //改为0
+  border-radius: 20px; //加个圆角
+  padding: 30px 30px;
+
+  @include respond(xl) {
+    padding: 15px 0;
+  }
+
+  &,
+  .menu-bottom-section {
+    gap: 30px;
+
+    @include respond(xl) {
+      gap: 25px;
+    }
+  }
+
+  &.show {
+    display: flex;
+  }
+
+  @include respond(md) {
+    align-items: flex-end;
+    display: flex;
+    background-color: transparent;
+    padding: 0;
+    box-shadow: none;
+    margin: 0;
+  }
+
+  li {
+    position: relative;
+    vertical-align: middle;
+    padding: 0;
+
+    @include respond(md) {
+      width: 100%;
+    }
+
+    svg {
+      stroke-width: 1.33;
+
+      width: 20px;
+      height: 20px;
+    }
+
+    a {
+      height: 100%;
+      display: inline-flex;
+      align-items: center;
+      color: var(--body-text-color);
+      gap: var(--menu-icon-separation);
+    }
+
+    span {
+      flex: 1;
+    }
+
+    &.current {
+      a {
+        color: var(--accent-color);
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+
+/*手机模式下的菜单滚动条美化*/
+.menu::-webkit-scrollbar {
+  display: none; //防止大屏幕时出现滚动条
+}
+
+.sidebar header .site-name {
+  margin: 8px;
+  font-size: 2rem; //字体大小
+}
+/*------------------右侧导航栏--------------*/
+/*搜索菜单动画*/
+.search-form.widget {
+  transition: transform 0.6s ease;
+}
+
+.search-form.widget:hover {
+  transform: scale(1.1, 1.1);
+}
+
+
+/*归档小图标放大动画*/
+.widget.archives .widget-archive--list {
+  transition: transform .3s ease;
+}
+
+.widget.archives .widget-archive--list:hover {
+  transform: scale(1.05, 1.05);
+}
+
+
+/*右侧标签放大动画*/
+.tagCloud .tagCloud-tags a {
+  border-radius: 10px;
+  font-size: 1.4rem;
+  transition: transform .3s ease;
+}
+
+.tagCloud .tagCloud-tags a:hover {
+  transform: scale(1.1, 1.1);
+}
+
+/*----------------归档页面---------------*/
+/*归档页面卡片缩放*/
+.article-list--tile article {
+  transition: .6s ease;
+}
+
+.article-list--tile article:hover {
+  transform: scale(1.03, 1.03);
+}
+
+
+/*--------------*-链接页面-----------------*/
+/*友情链接设置成三栏样式*/
+@media (min-width: 1024px) {
+  .article-list--compact.links {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background: none;
+    box-shadow: none;
+    gap: 1rem;
+
+    article {
+      background: var(--card-background);
+      border: none;
+      box-shadow: var(--shadow-l2);
+      margin-bottom: 8px;
+      border-radius: var(--card-border-radius);
+
+      &:nth-child(odd) {
+        margin-right: 8px;
+      }
+    }
+  }
+}
+
