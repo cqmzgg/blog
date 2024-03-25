@@ -1,4 +1,6 @@
 public
 resources
-.hugo_build.lock
+archetypes
 .obsidian
+.hugo_build.lock
+
