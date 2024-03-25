@@ -3,4 +3,5 @@ resources
 archetypes
 .obsidian
 .hugo_build.lock
+p.bat
 
