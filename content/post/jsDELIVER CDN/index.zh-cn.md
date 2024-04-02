@@ -1,5 +1,5 @@
 ---
-title:  blog/content/post/jsDELIVER CDN/未命名.md
+title:  jsDELIVER CDN
 description: 
 date: 2024-04-02T12:18:40+08:00
 image: 
