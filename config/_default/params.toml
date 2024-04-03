@@ -19,7 +19,7 @@ subtitle = "抱最大的希望，尽最大的努力，做最坏的打算。"
 [sidebar.avatar]
 enabled = true
 local = true
-src = "https://cdn.jsdelivr.net/gh/cqmzgg/blog@master/assets/img/avatar.png"
+src = "img/avatar.png"
 
 [article]
 math = false
