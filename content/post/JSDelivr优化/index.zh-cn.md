@@ -1,5 +1,5 @@
 ---
-title:  jsDELIVER CDN
+title:  JSDelivr 优化
 description: 
 date: 2024-04-02T12:18:40+08:00
 image: https://s2.loli.net/2024/03/19/Nvyac3MF4Gd69fb.jpg
