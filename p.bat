@@ -1,6 +1,6 @@
 @echo off
 
-
+git pull
 git add content
  git commit -a -m "bat auto update:%date:~0,10%,%time:~0,8%" 
 ::  git commit -m "%commitMessage%" 
