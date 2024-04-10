@@ -13,10 +13,16 @@ tags:
   - 月记
 weight: 0
 ---
+
+### 4 月 8 日
+AI 推荐
+- [DeepSeek | 深度求索](https://www.deepseek.com/)
+- [最新音乐 | Melodisco - AI 音乐播放器](https://melodis.co/zh/newest)
 ### 4 月 7 日
 #音乐下载
-[MusicFree | MusicFree](https://musicfree.upup.fun/)
-[GitHub - maotoumao/MusicFreeDesktop: 插件化、定制化、无广告的免费音乐播放器](https://github.com/maotoumao/MusicFreeDesktop)
+开源音乐播放器
+- [MusicFree | MusicFree](https://musicfree.upup.fun/)
+- [GitHub - maotoumao/MusicFreeDesktop: 插件化、定制化、无广告的免费音乐播放器](https://github.com/maotoumao/MusicFreeDesktop)
 
 **QQ 音乐**
 `http://adad23u.appinstall.life/dist/qq/index.js`
@@ -38,28 +44,29 @@ weight: 0
 
 
 ### 4 月 3 日
+[奶酪书签](https://cqmzgg.lanzn.com/isdri1tr7efe)
 
 Alist 资源网盘地址大全
 
-> https://pan.mediy.cn
-> https://al.chirmyram.com
-> https://pan.ecve.cn
-> https://pan.110014.xyz
-> https://a.sodaz.xyz/
-> https://pan.pengcheng.team
-> https://zi0.cc/
-> http://alist.xiaoya.pro
-> https://share.xiaole88.com/
-> https://pan.arley.cn/zh-CN
-> https://file.cnxiaobai.com
-> https://pan.ichuguang.com
-> https://pan.xiwangly.top
+- https://pan.mediy.cn
+- https://al.chirmyram.com
+- https://pan.ecve.cn
+- https://pan.110014.xyz
+- https://a.sodaz.xyz/
+- https://pan.pengcheng.team
+- https://zi0.cc/
+- http://alist.xiaoya.pro
+- https://share.xiaole88.com/
+- https://pan.arley.cn/zh-CN
+- https://file.cnxiaobai.com
+- https://pan.ichuguang.com
+- https://pan.xiwangly.top
 
-[奶酪书签](https://cqmzgg.lanzn.com/isdri1tr7efe)
-PPT 生成
-[Home - MindShow,Make Slides Easy](https://www.mindshow.fun/#/home)
-[AI灵感PPT](https://www.lgppt.cn/)
-[讯飞智文 - AI在线生成PPT、Word](https://zhiwen.xfyun.cn/)
+
+**PPT 生成**
+- [Home - MindShow,Make Slides Easy](https://www.mindshow.fun/#/home)
+- [AI灵感PPT](https://www.lgppt.cn/)
+- [讯飞智文 - AI在线生成PPT、Word](https://zhiwen.xfyun.cn/)
 
 ### 4 月 2 日
 [一言](https:// [v1.hitokoto.cn/?c=f&encode=text](https://v1.hitokoto.cn/?c=f&encode=text))
@@ -74,3 +81,4 @@ PPT 生成
 > 愚人节遇上复活节
 
 - TVAPK 下载站 [超小杯](https://www.rjcxb.com/category/apk/tvapk)
+
